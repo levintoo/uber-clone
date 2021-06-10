@@ -2,8 +2,11 @@
     margin: 0;
     padding: 0;
 }
-#body{
+body{
     position: relative;
+}
+#body{
+  
     background-image: url(images/back.jpg);
     background-size: cover;
 }
@@ -56,15 +59,10 @@ button, .main-description p,.main-description h2{
     margin: 19px;
 }
     /* log in page details */
-.login-page{
+.login-page, .container{
     margin-top: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.container{
-    width: fit-content;
-    height: max-content;
-    border: solid 1px black;
-    border-radius: 10px;
+    position: absolute;
 }
