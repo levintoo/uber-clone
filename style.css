@@ -61,18 +61,34 @@ button, .main-description p,.main-description h2{
     /* log in page details */
     .container{
         position: absolute;
-        top: 10vh;
+        top: 1vh;
         border: 1px solid black;
         display: flex;
         display: flex;
         justify-content: center;
         align-content: center;
+        max-height: fit-content;
     }
+
+    /* log in and sign in menu */
 .login-page{
-    margin-top: 18vh;
+    margin-top: 15vh;
     display: flex;
+    min-height: fit-content;
+    box-sizing: content-box;
     border: 1px solid rgb(145, 145, 145);
     border-radius: 5px;
     padding: 2rem;
     position: absolute;
+    left: 42%;
+}
+
+.btn-primary{
+    margin-top: 0.4vh;
+    margin-left: 0;
+    margin-bottom: 00.4vh; 
+}
+form{
+    width: 50vh;
+    height: 60vh;
 }

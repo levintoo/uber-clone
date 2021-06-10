@@ -17,30 +17,37 @@
             <a href="index.html" class="navbar-links">Home</a>
           <a href="" class="navbar-links">About</a>
           <a href="" class="navbar-links">Profile</a>
-          <a href="" class="navbar-links btn2" ><button type="button" class="btn btn-danger btn-sm">Login</button></a>
-          <a href="" class="navbar-links btn2" ><button type="button" class="btn btn-outline-danger btn-sm">Login</button></a>
+          <a href="sign-in.html" class="navbar-links btn2" ><button type="button" class="btn btn-danger btn-sm">Sign-Up</button></a>
+          <a href="log-in.html" class="navbar-links btn2" ><button type="button" class="btn btn-outline-danger btn-sm">Login</button></a>
         </ul>
           
  </div>
       </nav>
 
-<div class="container">
+<div class="container login">
   <div class="login-page">
     <form>
         <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Full Name</label>
+            <input type="text" class="form-control sign" required id="exampleInputPassword1">
+          </div>
+        <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          <input type="email" required class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text"></div>
         </div>
         <div class="mb-3">
           <label for="exampleInputPassword1" class="form-label">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
+          <input type="password" required class="form-control" id="exampleInputPassword1">
         </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" checked class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Remember me</label>
-        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+            <input type="password" required class="form-control" id="exampleInputPassword1">
+          </div>
+
         <button type="submit" class="btn btn-primary">Submit</button>
+        <div>
+        <a href="log-in.html" style="text-decoration: none;">Already have an account?Log In</a></div>
       </form>
     </div>
 </div>
