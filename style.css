@@ -57,7 +57,14 @@ button, .main-description p,.main-description h2{
 }
     /* log in page details */
 .login-page{
+    margin-top: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.container{
+    width: fit-content;
+    height: max-content;
+    border: solid 1px black;
+    border-radius: 10px;
 }
